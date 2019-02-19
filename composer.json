@@ -1,0 +1,21 @@
+{
+    "name": "mgevorg/test",
+    "description": "Test package",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Gevorg Manukyan",
+            "email": "gevorg.manukyan@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.9"
+    },
+    "autoload": {
+        "classmap": ["src"]
+    }
+}
